@@ -1,0 +1,75 @@
+*{
+    padding : 0px;
+    margin: 0px;
+}
+h1{
+    text-align: center;
+}
+
+body{
+
+    background-image: url(OIP.jpeg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.guess{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.check{
+    padding:  10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color:wheat;
+    cursor: pointer;
+    
+}
+
+.check:hover{
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    background-color: white;
+    color: black;
+}
+.check:active{
+    background-color: red;
+}
+.scores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+ .score{
+    font-size: 3rem;
+ }
+
+ .scoren{
+    font-size: 3rem;
+ }
+  
+  
+ .msg{
+    
+    color: white;
+      border: 1px solid rgb(232, 212, 212);
+      width: 10%;
+      border-radius: 50px;
+      padding: 1rem 1rem;
+      cursor: pointer;
+      justify-content: center;
+      align-items: center;
+      margin-left: 33rem;
+      margin-top: 3rem;
+ }
+.msg1{
+    font-weight: 500;
+}
